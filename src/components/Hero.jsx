@@ -1,6 +1,7 @@
 import React from "react";
 import { FiExternalLink } from "react-icons/fi";
 import HeroFooter from "./HeroFooter";
+import CardSection from "./CardSection";
 
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
 
 
-                <div className="max-w-xl text-center lg:text-left mt-0 lg:mt-0 w-full lg:w-1/2 order-1 lg:order-1">
+                <div className="max-w-xl text-center lg:text-left mt-0 lg:mt-0 w-full lg:w-1/2 order-1 lg:order-1 ">
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-x-2 text-teal-900 text-sm mb-4">
 
@@ -83,6 +84,7 @@ const Hero = () => {
 
             </div>
             <HeroFooter />
+            <CardSection/>
         </section>
     );
 };

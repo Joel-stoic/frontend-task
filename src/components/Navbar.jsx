@@ -100,7 +100,7 @@ function Dropdown({ label, badge, to }) {
     >
       <span className="text-teal-900">{label}</span>
       {badge && (
-        <span className="text-xs bg-gray-200 text-gray-700 rounded-full px-2 py-0.5">New</span>
+        <span className="text-xs bg-gray-200 text-gray-700 rounded-full px-2 py-0.5">{badge}</span>
       )}
       <FiChevronDown className="text-teal-900" />
     </Link>
